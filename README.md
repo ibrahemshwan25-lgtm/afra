@@ -1628,8 +1628,7 @@
         setInterval(updateLiveClockAndDate, 1000);
     });
 </script>
-</body>
-</html><script type="module">
+</body><script type="module">
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
   import { getFirestore } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
@@ -1646,3 +1645,4 @@
   const db = getFirestore(app);
   console.log("Firebase connected successfully!");
 </script>
+
